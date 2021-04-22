@@ -16,7 +16,8 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "firebase": "^8.4.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vuefire": "^3.0.0-alpha.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
