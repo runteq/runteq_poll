@@ -7,12 +7,41 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - runteq_poll',
-    title: 'runteq_poll',
+    titleTemplate: '%s - RUNTEQ POLL',
+    title: 'RUNTEQ POLL',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'RUNTEQのコミュニティ専用 投票アプリ',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'RUNTEQ POLL',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://nuxt-polls.web.app',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'RUNTEQのコミュニティ専用投票アプリ',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://nuxt-polls.web.app/icon.png',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'RUNTEQ POLL',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
