@@ -1,4 +1,26 @@
-# runteq_poll
+# RUNTEQ POLL
+
+## RUNTEQ生向けのOSSアプリ
+- Vueを使う生徒さんが増えてきた
+- チーム開発の場が少ない
+- コミュニティを盛り上げる施策として
+
+上記の理由からOSSにしました。
+チーム開発してみたい方は是非プルリクを投げてみてください。疑問点でも是非是非
+
+## 使用技術
+### Nuxt.js
+- Vue.js (2.x系)
+- Vuetify
+- Vuefire → Cloud Firestoreと接続するやつ
+
+### Firebase
+- Hosting
+- Cloud Firestore
+- Authentication (使うかも？)
+
+### テスト
+- jest
 
 ## Build Setup
 
